@@ -15,8 +15,14 @@ const runDemo = async () => {
   const secret = await powCrypto.generateSecret();
   log("Secret: " + secret);
 
-  const powClient = new PowClient();
-  const powServer = new PowServer(secret);
+  const powClient = new PowClient({
+    difficulty: 2,
+    timeout: 60000,
+  });
+  const powServer = new PowServer(secret, {
+    difficulty: 2,
+    timeout: 60000,
+  });
 
   log("Creating challenge...");
   const challenge = await powServer.createChallenge();
