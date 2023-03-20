@@ -12,7 +12,9 @@ npm install @vantezzen/pow
 
 ## Example
 
-An example implementation can be found in the [demo](demo) folder.
+A fully client-side demo can be accessed at https://vantezzen.github.io/pow/.
+
+The example implementation can be found in the [demo](demo) folder.
 
 ## Usage
 
