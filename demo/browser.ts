@@ -21,7 +21,7 @@ const runDemo = async () => {
   });
   const powServer = new PowServer(secret, {
     difficulty: 2,
-    timeout: 60000,
+    validity: 60000,
   });
 
   log("Creating challenge...");

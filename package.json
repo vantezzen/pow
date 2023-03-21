@@ -2,6 +2,7 @@
   "name": "@vantezzen/pow",
   "description": "A simple challenge-response proof-of-work implementation for web apps",
   "license": "MIT",
+  "repository": "https://github.com/vantezzen/pow",
   "keywords": [
     "pow",
     "proof-of-work",
@@ -22,7 +23,7 @@
     "hash",
     "browser"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "files": [
     "dist",
